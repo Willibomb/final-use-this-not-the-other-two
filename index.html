@@ -1,0 +1,61 @@
+<!DOCTYPE html>
+  <html lang="en">
+  <head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+   	<link rel='icon' href='faviconanime.ico' type='image/x-icon'/>
+	<meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="apple-touch-icon" href="icons/icon-192x192.png">
+  <meta name="theme-color" content="#0075ff">
+    <link rel="manifest" href="manifest.json">
+	
+    <title>Anime quoter</title>
+    
+    <!-- include an external style sheet -->
+    <link rel="stylesheet" href="style.css">  
+    
+    <!-- include an external JavaScript file -->
+    <script src="myscript.js"></script>
+  </head>
+</head>
+  <body>
+  <div class="header">
+  <h2 class="title">Anime Quoter</h2>
+  <p><strong>INSTRUCTIONS</strong><br>
+  Welcome to my anime API! You can click on one of those buttons below this message to get some quotes from your favourite animes or characters!<br>
+  Come on, dont be shy~ Start pushing my buttons Onii-chan~<br>
+  I even picked out a few <em>really good</em> buttons for you to start pushing~</p>
+      <div id="ohYeah"></div>
+  <div id="listAll"></div>
+  <hr>
+  <div id="quoteAll"></div>
+  <hr>
+  <div id="choke">
+  Anime Titles: 
+  <button class="button" onclick="fetchRandom('naruto')">Naruto</button>
+  <button class="button" onclick="fetchRandom('bleach')">Bleach</button>
+  <button class="button" onclick="fetchRandom('One Piece')">One Piece</button>
+  <button class="button" onclick="fetchRandom('Himouto! Umaru-chan')">Himouto! Umaru-chan</button>
+  <br>
+  Anime Characters: 
+  <button class="button" onclick="fetchCharacter('saitama')">Saitama</button>
+  <button class="button" onclick="fetchCharacter('luffy')">Luffy</button>
+  <button class="button" onclick="fetchCharacter('aang')">Aang</button>
+  <button class="button" onclick="fetchCharacter('naruto uzumaki')">Naruto Uzumaki</button>
+  <br>
+  Feeling Lucky? Get <strong>5</strong> random quotes from random animes!
+  <button class="button" onclick="fetchTen()">Click me Onii-chan~</button>
+  </div>
+    ↓Choose from the anime of your liking! Don't take too long though~↓
+  <div id="titleList"></div>
+  <div class="mainImage">
+	<img class="uzaki" src="images/sexyuzaki.jpg" alt="uzaki">
+	</div>
+
+  <div id="factsList"></div>
+   <p class="sauce">This script uses a fetch request to get an activity from a free api called Animechan. For more info on this api: <a href="https://github.com/RocktimSaikia/anime-chan">Animechan</a>. 
+      </p>
+	 </div>
+</body>
+  
+</html>

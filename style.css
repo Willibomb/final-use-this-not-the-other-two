@@ -1,0 +1,47 @@
+@import url('https://fonts.googleapis.com/css2?family=Zen+Kurenaido&display=swap');
+
+#ohYeah{
+	color:#43a143;
+	font-size:2em;
+	/*font-family: 'Roboto Condensed', sans-serif;*/
+}
+body{
+  background-color:white;
+  font-family: 'Zen Kurenaido', sans-serif;
+  /*font-family:Helvetica, Arial, sans-serif;*/
+}
+
+.header{
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+  width: 70%;
+  /*background-image:url("images/sexyuzaki.jpg");*/
+  /*background-image:url("images/agryuzaki.jpg");*/
+  background-position:center; 
+  background-size:cover;
+}
+.uzaki{
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+  width: 50%;
+  max-width:300px;
+}
+.title{
+	font-size:3.4em;
+	font-family: 'Zen Kurenaido', sans-serif;
+}
+.sauce{
+	text-align: center;
+}
+@media (max-width: 768px) {
+  .header{
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+  width: 90%;
+  }
+}
+
+/*Arrow symbols ← ↑ → ↓*/
